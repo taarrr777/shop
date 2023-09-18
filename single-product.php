@@ -15,6 +15,11 @@ $r = mysqli_fetch_assoc($result);
 
   <head>
 
+    <!-- Custom CSS and JS-->
+    <link rel="stylesheet" href="./custom/custom.css">
+    <!-- <script src="./custom/custom.js" defer></script> -->
+
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -82,8 +87,8 @@ https://templatemo.com/tm-571-hexashop
             <div class="row">
                 <div class="col-lg-8">
                 <div class="left-images">
-                    <img src="<?php echo $r['img_main']; ?>" alt="" class="single-photo">
-                    <img src="<?php echo $r['img_second']; ?>" alt="" class="single-photo">
+                    <img src="<?php echo $r['img_main']; ?>" alt="" class="single-img">
+                    <!-- <img src="<?php // echo $r['img_second']; ?>" alt="" class="single-img"> -->
                 </div>
             </div>
             <div class="col-lg-4">
@@ -95,7 +100,7 @@ https://templatemo.com/tm-571-hexashop
                             <li><i class="fa fa-star"></i></li>
                         <?php endfor; ?>    
                         </ul>
-                    <span><?php echo $r['description']; ?></span>
+                    <!-- <span><?php // echo $r['description']; ?></span> -->
                     <div class="quote">
                         <i class="fa fa-quote-left"></i><p><?php echo $r['description']; ?></p>
                     </div>
@@ -105,7 +110,7 @@ https://templatemo.com/tm-571-hexashop
                         </div>
                         <div class="right-content">
                             <div class="quantity buttons_added">
-                                <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="<?php echo $r['item_count']; ?>" id="quantity" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                                <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="<?php echo intval( $r['item_count'] / 4); ?>" id="quantity" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
                             </div>
                         </div>
                     </div>
