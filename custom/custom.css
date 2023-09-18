@@ -1,4 +1,10 @@
+
+.left-images{
+    height: 90%;
+    width: 100%;
+    display: inline-flex;
+}
 .single-img{
-    height: 70vh;
-    /* width: 5%; */
+    display: inline-flex;
+    margin:1%;
 }

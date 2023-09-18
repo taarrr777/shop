@@ -88,7 +88,7 @@ https://templatemo.com/tm-571-hexashop
                 <div class="col-lg-8">
                 <div class="left-images">
                     <img src="<?php echo $r['img_main']; ?>" alt="" class="single-img">
-                    <!-- <img src="<?php // echo $r['img_second']; ?>" alt="" class="single-img"> -->
+                    <img src="<?php echo $r['img_second']; ?>" alt="" class="single-img">
                 </div>
             </div>
             <div class="col-lg-4">
