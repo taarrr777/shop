@@ -1,6 +1,6 @@
 <?php
 
-include_once 'connect.php';
+include_once '../connect.php';
 
 ?>
 
@@ -19,15 +19,15 @@ include_once 'connect.php';
 
 
 <!-- Additional CSS Files -->
-<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
 
-<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.css">
 
-<link rel="stylesheet" href="assets/css/templatemo-hexashop.css">
+<link rel="stylesheet" href="../assets/css/templatemo-hexashop.css">
 
-<link rel="stylesheet" href="assets/css/owl-carousel.css">
+<link rel="stylesheet" href="../assets/css/owl-carousel.css">
 
-<link rel="stylesheet" href="assets/css/lightbox.css">
+<link rel="stylesheet" href="../assets/css/lightbox.css">
 <!--
 
 TemplateMo 571 Hexashop
@@ -42,7 +42,7 @@ https://templatemo.com/tm-571-hexashop
     
 
     <!-- ***** Header Start ***** -->
-    <?php include_once 'header.php'; ?>
+    <?php include_once '../header.php'; ?>
     <br>
 
     <div class="subscribe">
@@ -110,4 +110,4 @@ https://templatemo.com/tm-571-hexashop
 
 
     <!-- ***** Footer Start ***** -->
-    <?php include_once 'footer.php'; ?>
+    <?php include_once '../footer.php'; ?>

@@ -8,8 +8,9 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.php" class="logo">
-                            <img src="assets/images/logo.png">
+                        <a href="D:/OSPanel/domains/shop/index.php" class="logo">
+                            <img src="./assets/images/logo.png">
+                            <!-- <img src="D:/OSPanel/domains/shop/assets/images/logo.png"> -->
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -20,7 +21,7 @@
                                 <li class="scroll-to-section"><a href="#women">Women's</a></li>
                                 <li class="scroll-to-section"><a href="#kids">Kid's</a></li>
                             <?php else: ?>
-                                <li class="scroll-to-section"><a href="index.php">Home</a></li>
+                                <li class="scroll-to-section"><a href="./index.php">Home</a></li>
                             <?php endif;?>
                             <li class="submenu">
                                 <a href="javascript:;">Pages</a>
