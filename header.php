@@ -1,7 +1,3 @@
-<?php 
-
-?>
-
 <header class="header-area header-sticky">
         <div class="container">
             <div class="row">
@@ -15,7 +11,7 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <?php if($_SERVER['SCRIPT_FILENAME'] === "D:/OSPanel/domains/shop/index.php" ): ?>
+                            <?php if($_SERVER['SCRIPT_FILENAME'] === "d:/ospanel/domains/shop/index.php" ): ?>
                                 <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                                 <li class="scroll-to-section"><a href="#men">Men's</a></li>
                                 <li class="scroll-to-section"><a href="#women">Women's</a></li>
